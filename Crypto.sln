@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caesar", "Caesar\Caesar.csproj", "{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vigenere", "Vigenere\Vigenere.csproj", "{C21EFB6E-61C2-4732-9EBE-C27291D7250F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +13,19 @@ Global
 		Release|AnyCPU = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
-		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
-		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
-		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{4CF83C42-FA1A-4D15-94D7-E0014A822C5D}.Release|AnyCPU.Build.0 = Release|Any CPU
+		{C21EFB6E-61C2-4732-9EBE-C27291D7250F}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{C21EFB6E-61C2-4732-9EBE-C27291D7250F}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{C21EFB6E-61C2-4732-9EBE-C27291D7250F}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{C21EFB6E-61C2-4732-9EBE-C27291D7250F}.Release|AnyCPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E44C02C-6A47-4261-AE12-4A79B8BCEE1F}
 	EndGlobalSection
 EndGlobal
